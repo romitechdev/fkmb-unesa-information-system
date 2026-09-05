@@ -1,8 +1,8 @@
-# FKMB UNESA - Sistem Informasi
+# FKMB UNESA - Information System
 
-Sistem Informasi untuk Forum Keluarga Mahasiswa Banyuwangi UNESA.
+Information system for the UNESA Banyuwangi Student Family Forum (Forum Keluarga Mahasiswa Banyuwangi UNESA).
 
-## Struktur Proyek
+## Project Structure
 
 ```
 fkmb/
@@ -32,17 +32,17 @@ fkmb/
 ## Deployment
 
 ### Frontend (Vercel)
-Deploy frontend langsung ke Vercel. Set environment variable:
-- `VITE_API_URL`: URL backend API
+Deploy the frontend directly to Vercel. Set the environment variable:
+- `VITE_API_URL`: backend API URL
 
 ### Backend
-Backend perlu di-deploy terpisah ke platform yang support Node.js (Railway, Render, dll).
+The backend must be deployed separately on a platform that supports Node.js (Railway, Render, etc.).
 
-Set environment variables:
+Set the environment variables:
 - `DATABASE_URL`: PostgreSQL connection string
-- `JWT_SECRET`: Secret untuk JWT (min 32 karakter)
-- `JWT_REFRESH_SECRET`: Secret untuk refresh token (min 32 karakter)
-- `FRONTEND_URL`: URL frontend (untuk CORS)
+- `JWT_SECRET`: secret for JWT (min 32 characters)
+- `JWT_REFRESH_SECRET`: secret for refresh tokens (min 32 characters)
+- `FRONTEND_URL`: frontend URL (for CORS)
 - `NODE_ENV`: production
 
 ## Development
