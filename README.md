@@ -58,3 +58,7 @@ cd backend
 npm install
 npm run dev
 ```
+
+<!-- last-updated -->
+_Last updated: 2026-09-05_
+
